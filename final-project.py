@@ -80,7 +80,6 @@ try:
       url = server_url +  '/sites/' + site_id + '/views/' + row['Dashboard ID'] + '/image' + '?maxAge=5'+'&resolution=high'
       if row['FilterField'] != '':
         url = url + '&vf_' + row['FilterField'] + '=' + row['FilterValue']
-      print(url)
       headers = {
                   "Content-Type"  : "application/json",
                   "Accept"        : "application/json",
