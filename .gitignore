@@ -9,6 +9,8 @@ __pycache__/
 #Reference File
 source/
 env/
+credentials.json
+token.json
 # Distribution / packaging
 .Python
 build/
